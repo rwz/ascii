@@ -1,6 +1,8 @@
 # Ascii
 [![Build Status](https://img.shields.io/travis/rwz/ascii.svg)][travis]
+[![Code Climate](https://img.shields.io/codeclimate/github/rwz/ascii.svg)][codeclimate]
 [travis]: http://travis-ci.org/rwz/ascii
+[codeclimate]: https://codeclimate.com/github/rwz/ascii
 
 TODO: Write a gem description
 
