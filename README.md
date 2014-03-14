@@ -1,4 +1,6 @@
 # Ascii
+[![Build Status](https://img.shields.io/travis/rwz/ascii.svg)][travis]
+[travis]: http://travis-ci.org/rwz/ascii
 
 TODO: Write a gem description
 
