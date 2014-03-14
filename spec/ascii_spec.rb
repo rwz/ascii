@@ -94,7 +94,7 @@ describe Ascii do
   }
 
   PURE_ASCII.each do |phrase|
-    it "does not modify #{phrase.inspect}" do
+    it "does not modify an ASCII phrase #{phrase.inspect}" do
       expect(described_class.process(phrase)).to eq(phrase)
     end
   end
