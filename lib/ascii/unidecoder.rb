@@ -9,7 +9,7 @@ module Ascii
     end
 
     def to_ascii
-      input.gsub(/[^\x00-\x7f]/u, &method(:decode))
+      input.gsub(/[^\x00-\x7f]/u, &method(:decode)).strip
     end
 
     private

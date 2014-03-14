@@ -69,12 +69,12 @@ describe Ascii do
 
     "Chinese" => [
       "我能吞下玻璃而不伤身体。",
-      "Wo Neng Tun Xia Bo Li Er Bu Shang Shen Ti . "
+      "Wo Neng Tun Xia Bo Li Er Bu Shang Shen Ti ."
     ],
 
     "Japanese" => [
       "私はガラスを食べられます。それは私を傷つけません。",
-      "Si hagarasuwoShi beraremasu. sorehaSi woShang tukemasen. "
+      "Si hagarasuwoShi beraremasu. sorehaSi woShang tukemasen."
     ],
 
     "Persian" => [
