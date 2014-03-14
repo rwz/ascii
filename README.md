@@ -6,7 +6,17 @@
 [travis]: http://travis-ci.org/rwz/ascii
 [codeclimate]: https://codeclimate.com/github/rwz/ascii
 
-TODO: Write a gem description
+This library provides method to transliterate Unicode characters to an ASCII
+approximation.
+
+The functionality in this library was originally written by [Russel Norris](http://github.com/rsl)
+for his [Stringex library](http://github.com/rsl/stringex). This gem is an
+extraction of the Unicode transliteration functionality from Stringex into a
+separate library.
+
+The Unidecoder component of Stringex is itself a port of Sean M. Burke's
+[Unidecode](http://search.cpan.org/dist/Text-Unidecode/lib/Text/Unidecode.pm)
+Perl module.
 
 ## Installation
 
@@ -24,7 +34,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Ascii.process("Привет, мир!") # => "Priviet, mir!"
+Ascii.process("你好") # => "Ni Hao"
+```
 
 ## Contributing
 

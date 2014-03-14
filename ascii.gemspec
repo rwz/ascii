@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version      = Ascii::VERSION
   spec.authors      = ["Pavel Pravosud"]
   spec.email        = ["pavel@pravosud.com"]
-  spec.summary      = "TBD"
-  spec.description  = "TBD"
-  spec.homepage     = ""
+  spec.summary      = "Create an ASCII representation of localized string"
+  spec.description  = "This library provides methods to transliterate Unicode characters to an ASCII approximation"
+  spec.homepage     = "https://github.com/rwz/ascii"
   spec.license      = "MIT"
 
   spec.files        = `git ls-files -z`.split("\x0")
