@@ -1,10 +1,7 @@
 # Ascii
-[![Gem Version](https://img.shields.io/gem/v/ascii.svg)][gem]
-[![Build Status](https://img.shields.io/travis/rwz/ascii.svg)][travis]
-[![Code Climate](https://img.shields.io/codeclimate/github/rwz/ascii.svg)][codeclimate]
-[gem]: https://rubygems.org/gems/ascii
-[travis]: http://travis-ci.org/rwz/ascii
-[codeclimate]: https://codeclimate.com/github/rwz/ascii
+[![Gem Version](https://img.shields.io/gem/v/ascii.svg)](https://rubygems.org/gems/ascii)
+[![Build Status](https://img.shields.io/travis/rwz/ascii.svg)](http://travis-ci.org/rwz/ascii)
+[![Code Climate](https://img.shields.io/codeclimate/github/rwz/ascii.svg)](https://codeclimate.com/github/rwz/ascii)
 
 This library provides method to transliterate Unicode characters to an ASCII
 approximation.
